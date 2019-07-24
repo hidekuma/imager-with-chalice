@@ -41,7 +41,6 @@ def build_core(domain_id, filename, url):
     start_time = time.time()
     cprs = 90
     from chalicelib.imager import Imager
-    #imager = Imager(url="http://uneedcomms.cdn.smart-img.com/leader_20171124_20170724.jpg")
     imager = Imager(url=url)
     imager.compress(cprs)
     group = 'compress-{}'.format(cprs)
@@ -58,11 +57,8 @@ def build_core(domain_id, filename, url):
 
 
 def test(event=None, context=None):
-    #build_core(1, 'test.jpg',
-    #           "http://uneedcomms.cdn.smart-img.com/leader_20171124_20170724.jpg")
-
     build_core(1, 'test.jpg',
-            "https://file.uneedcomms.com/ad-prds/1/compress-90/test.jpg")
+            "url")
 
 if __name__ == '__main__':
     test()
