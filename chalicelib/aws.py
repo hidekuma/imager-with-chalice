@@ -1,0 +1,16 @@
+# AD 계정 S3풀억세스
+AD_S3_FULL_KEY_ID = ""
+AD_S3_FULL_ACCESS_KEY = ""
+# AD_S3_REGION_NAME = 'ap-northeast-2'
+
+# 파일매니저 버킷네임
+PROJECT_FILE_MANAGER_BUCKET = ''
+PROJECT_FILE_MANAGER_PREFIX = ''
+PROJECT_FILE_MANAGER_URL = ''
+PROJECT_FILE_MANAGER_ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
+
+# 광고상품이미지 버킷정보
+PROJECT_AD_PRDS_BUCKET = ''
+PROJECT_AD_PRDS_PREFIX = ''
+PROJECT_AD_PRDS_URL = ''
+PROJECT_AD_PRDS_ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
